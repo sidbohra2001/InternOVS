@@ -1,0 +1,12 @@
+/* main page */
+
+body{
+        background-image: linear-gradient(to bottom right,rgba(70, 102, 219, 0.5),rgba(242, 148, 48, 0.62), rgb(240, 54, 239,0.2));
+     
+}
+#carousel{
+    margin-top: 90px;
+    width: 95%;
+    margin-left:35px;
+}
+

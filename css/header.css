@@ -1,0 +1,50 @@
+.navbar{
+    
+    background-color:rgb(26, 4, 105) ;  
+} 
+
+.navbar .navbar-brand{
+    color: white ;  
+}
+
+#navbarDropdownMenuLink{
+    color: white;
+}
+
+#nonlogin{
+    color: white;
+}
+
+.head{
+    margin-top: 55px;
+    background-color: white;
+    z-index: -1;
+    
+}
+.head .nav-item a{
+    
+    display: inline-block;
+    color:  rgb(26, 4, 105);
+}
+
+.head .nav-item a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background:   rgb(26, 4, 105);
+    transition: width .3s;
+    /* border-bottom: 2px solid rgb(26, 4, 105); */
+    /* transition: ; */
+}
+
+.head .nav-item a:hover::after{
+    width: 100%;
+    /* border-bottom: 2px solid rgb(26, 4, 105); */
+    /* transition: ; */
+}
+/* .head ul{
+    border-bottom: 1px solid black;
+} */
+
+

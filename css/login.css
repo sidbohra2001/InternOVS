@@ -1,0 +1,14 @@
+body{
+    margin: 50px
+}
+
+#loginrow{
+    /* background-image: url('./assets/images/diwali.jpg'); */
+    height: 100%;
+    
+}
+
+#form{
+    background-color: white;
+    height: 400px
+}
